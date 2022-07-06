@@ -1,0 +1,27 @@
+.header {
+  background-color: var(--main-backgraund-color);
+  border-bottom: 1px solid #ececec;
+
+  .conteiner {
+    @extend %align-list;
+  }
+}
+
+.header-logo {
+  margin-right: 93px;
+}
+
+.nav {
+  @extend %align-list;
+}
+
+.connection {
+  margin-left: auto;
+}
+
+.link {
+  color: var(--main-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 32px 0;
+}

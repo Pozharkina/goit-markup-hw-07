@@ -1,0 +1,29 @@
+.studio__section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  height: 600px;
+  max-width: 1600px;
+  background: #2f303a;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/img-overlay.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+}
+
+.studio__title {
+  width: 696px;
+  @include font(900, 1.36, 44px, 0.06em);
+  text-transform: uppercase;
+  color: var(--second-text-color);
+  padding-top: 0;
+  text-align: center;
+  margin: 0px auto 30px auto;
+}
+
+.studio__button {
+  justify-content: center;
+  margin: auto;
+  min-width: 200px;
+  height: 50px;
+}
