@@ -69,6 +69,7 @@
 .soc {
   border-radius: 50%;
   color: var(--main-soc-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
